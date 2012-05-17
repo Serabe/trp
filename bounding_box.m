@@ -6,7 +6,6 @@ function [ X1, Y1, X2, Y2 ] = bounding_box( img, bg )
 %   X2 x coordinate of the bottom right corner
 %   Y2 y coordinate of the bottom right corner
 %   Corners are supposed to be included in image.
-
     [h, w] = size(img);
     X1 = h; Y1 = w;
     X2 = 0; Y2 = 0;
